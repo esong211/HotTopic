@@ -48,9 +48,9 @@ pip install textblob
 * **Node.js**: Used for opening and listening promised sockets
 
 Installation: Download at the following link https://nodejs.org/en/
-
+```
 Usage: node src/server.js
-
+```
 
 ### Front end
 
@@ -66,7 +66,7 @@ Usage:
 npm start
 ```
 
-# How to use?
+## How to use?
 1. Install all required libraries and frameworks
 2. User open the terminal and run the src/server.js 
 3. Open up the localhost:8000 in the web browser. 
@@ -76,4 +76,5 @@ npm start
 
 ## Contributors
 Front-end = Alvin Chang 
+
 Setting up LDA, Crawl from Twitter = Eric Song, Jeewoon Han. 

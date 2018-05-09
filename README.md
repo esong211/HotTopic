@@ -45,11 +45,8 @@ pip install textblob
 
 * **JSON** : We used Json Library to format the data into the json format. We changed to JSON format because it is easier to parse the data in the front end. 
 
-* **Node.js**: Used for opening and listening promised sockets
-
-Installation: Download at the following link
-              https://nodejs.org/en/
-Usage: node src/server.js
+* **Node.js**: Used for opening and listening promised sockets \n Installation: Download at the following link
+              https://nodejs.org/en/ \n Usage: node src/server.js
 
 
 ### Front end

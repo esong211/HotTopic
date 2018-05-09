@@ -23,27 +23,19 @@ The system receives value of latitude and longitude from a user. When a user cli
 ### Back end
 
 * **Tweepy**: In order to get tweets in the given location with popular topic, we used Tweepy library. We used Tweepy.Cursor to get data for the analyze. 
-installation : 
-```
-pip install tweepy
-```
 
 * **Gensim** : We used LDA Model inside of Gensim library. 
-installation : 
-```
-pip install tweepy
-```
 
 * **NLTK** : We used NLTK library to do the lemmatization of the words. 
-installation : 
-```
-pip install nltk
-```
 
 * **TextBlob** :We used TextBlob in order eliminate the verbs in the tweets because verbs are not usually related to the topic. 
+
 installation : 
 ```
-pip install textblob
+pip3 install tweepy
+pip3 install gensim
+pip3 install nltk
+pip3 install textblob
 ```
 
 * **JSON** : We used Json Library to format the data into the json format. We changed to JSON format because it is easier to parse the data in the front end. 

@@ -15,22 +15,35 @@ The front end get the latitude and longitude data from the user, and it passes t
 ## How the software is implemented?
 The system receives value of latitude and longitude from a user. When a user clicks the button to find hot topics around him or her, the front end open a socket with Node.js backend and sends the input values. After receiving the values, backend calls twitter_api function in script.py to get hot topics around the user. The twitter_api function searches popular and recent tweets without any specific queries using twitter credential given in the package. Then, the function runs LDA with the queried tweets and finds top 1 topic of 3 words. With same location information, it searches for top 3 popular tweets by using the each word in a topic as a query. After finding the hot topic, the backend creates and passes the topics in JSON object using the socket. Once the front end receives the topics, it displays the topics to users. 
 
-## Requirements
-**Back end
+## Prerequisites
+
+* Back end
 
 *Libraries:
 
 Tweepy: In order to get tweets in the given location with popular topic, we used Tweepy library. We used Tweepy.Cursor to get data for the analyze. 
-installation : pip install tweepy
+installation : 
+```
+pip install tweepy
+```
 
 Gensim : We used LDA Model inside of Gensim library. 
-installation : pip install tweepy
+installation : 
+```
+pip install tweepy
+```
 
 NLTK : We used NLTK library to do the lemmatization of the words. 
-installation : pip install nltk
+installation : 
+```
+pip install nltk
+```
 
 TextBlob :We used TextBlob in order eliminate the verbs in the tweets because verbs are not usually related to the topic. 
-installation : pip install textblob
+installation : 
+```
+pip install textblob
+```
 
 JSON : We used Json Library to format the data into the json format. We changed to JSON format because it is easier to parse the data in the front end. 
 
@@ -47,7 +60,10 @@ Usage: node src/server.js
 Node.js: Used for opening and listening promised sockets
 
 NPM: Used for front end package management
-installation: npm install (only for front end)
+installation: 
+```
+npm install
+```
 Usage: npm start
 
 # How to use?

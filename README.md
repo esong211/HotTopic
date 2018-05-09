@@ -66,7 +66,7 @@ Usage:
 npm start
 ```
 
-## How to use?
+## How to use
 1. Install all required libraries and frameworks
 2. User open the terminal and run the src/server.js 
 3. Open up the localhost:8000 in the web browser. 
@@ -77,4 +77,4 @@ npm start
 ## Contributors
 Front-end = Alvin Chang 
 
-Setting up LDA, Crawl from Twitter = Eric Song, Jeewoon Han. 
+Setting up LDA, Crawl from Twitter = SeokHyun Song, Jeewoon Han. 

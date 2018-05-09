@@ -46,7 +46,7 @@ Installation: Download at the following link https://nodejs.org/en/
 
 * **NPM**: Used for package management
 
-installation: 
+Installation: 
 ```
 npm install
 ```
@@ -62,7 +62,7 @@ node src/index.js
 
 * **NPM**: Used for front end package management
 
-installation: 
+Installation: 
 ```
 npm install
 ```

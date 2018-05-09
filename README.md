@@ -43,6 +43,13 @@ pip3 install textblob
 * **Node.js**: Used for opening and listening promised sockets
 
 Installation: Download at the following link https://nodejs.org/en/
+
+* **NPM**: Used for package management
+installation: 
+```
+npm install
+```
+
 Usage:
 ```
 node src/index.js

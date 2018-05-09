@@ -99,7 +99,7 @@ class App extends Component {
                 <Dimmer active={this.state.loading}/>
 
                 <div className="App-header" style={{marginBottom : '30px'}}>
-                    <h2>Welcome to Social Media Finder</h2>
+                    <h2>Welcome to HotTopic</h2>
                 </div>
                 <Input
                     loading={this.state.loading}

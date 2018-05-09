@@ -52,7 +52,7 @@ pip install textblob
 
 Installation: Download at the following link https://nodejs.org/en/
 ```
-Usage: node src/server.js
+Usage: node src/index.js
 ```
 
 ### Front end

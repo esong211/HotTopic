@@ -19,52 +19,51 @@ The system receives value of latitude and longitude from a user. When a user cli
 
 * Back end
 
-*Libraries:
-
-Tweepy: In order to get tweets in the given location with popular topic, we used Tweepy library. We used Tweepy.Cursor to get data for the analyze. 
+**Tweepy**: In order to get tweets in the given location with popular topic, we used Tweepy library. We used Tweepy.Cursor to get data for the analyze. 
 installation : 
 ```
 pip install tweepy
 ```
 
-Gensim : We used LDA Model inside of Gensim library. 
+**Gensim** : We used LDA Model inside of Gensim library. 
 installation : 
 ```
 pip install tweepy
 ```
 
-NLTK : We used NLTK library to do the lemmatization of the words. 
+**NLTK** : We used NLTK library to do the lemmatization of the words. 
 installation : 
 ```
 pip install nltk
 ```
 
-TextBlob :We used TextBlob in order eliminate the verbs in the tweets because verbs are not usually related to the topic. 
+**TextBlob** :We used TextBlob in order eliminate the verbs in the tweets because verbs are not usually related to the topic. 
 installation : 
 ```
 pip install textblob
 ```
 
-JSON : We used Json Library to format the data into the json format. We changed to JSON format because it is easier to parse the data in the front end. 
+**JSON** : We used Json Library to format the data into the json format. We changed to JSON format because it is easier to parse the data in the front end. 
 
-Node.js: Used for opening and listening promised sockets
+**Node.js**: Used for opening and listening promised sockets
 Installation: Download at the following link
               https://nodejs.org/en/
 Usage: node src/server.js
 
 
-**Front end
+*Front end
 
-*Framework:
+**Node.js**: Used for opening and listening promised sockets
 
-Node.js: Used for opening and listening promised sockets
-
-NPM: Used for front end package management
+**NPM**: Used for front end package management
 installation: 
 ```
 npm install
 ```
-Usage: npm start
+Usage: 
+```
+npm start
+```
 
 # How to use?
 1. Install all required libraries and frameworks

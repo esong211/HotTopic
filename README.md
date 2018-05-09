@@ -4,11 +4,11 @@ It will help you find what are popular around you
 
 ## An overview of the function of the code
 
-* Back end
+### Back end
 
 Input of the function has to be the string that represents latitude and longitude with comma separated (e.g. 11.342341, -84.129911). The function reads twitter credential from twitter.cred file and create twitter api object. Using the twitter api object and the input value, it searches for popular and recent tweets that are posted near from the input location and makes the result as a document. Then, it runs LDA on the document and finds most appropriate appropriate topics. It uses the topics as a query and searches and selects most popular tweets and returns top 3 of them. 
 
-* Front end
+### Front end
 
 The front end get the latitude and longitude data from the user, and it passes the data to the backend algorithm which is LDA and the crawling the Twitter. After backend finishes the process, it display the result to the user. 
 
@@ -17,7 +17,7 @@ The system receives value of latitude and longitude from a user. When a user cli
 
 ## Prerequisites
 
-* Back end
+### Back end
 
 **Tweepy**: In order to get tweets in the given location with popular topic, we used Tweepy library. We used Tweepy.Cursor to get data for the analyze. 
 installation : 
@@ -51,7 +51,7 @@ Installation: Download at the following link
 Usage: node src/server.js
 
 
-*Front end
+### Front end
 
 **Node.js**: Used for opening and listening promised sockets
 

@@ -45,6 +45,7 @@ pip3 install textblob
 Installation: Download at the following link https://nodejs.org/en/
 
 * **NPM**: Used for package management
+
 installation: 
 ```
 npm install
@@ -60,6 +61,7 @@ node src/index.js
 * **Node.js**: Used for opening and listening promised sockets
 
 * **NPM**: Used for front end package management
+
 installation: 
 ```
 npm install

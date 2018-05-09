@@ -51,8 +51,9 @@ pip install textblob
 * **Node.js**: Used for opening and listening promised sockets
 
 Installation: Download at the following link https://nodejs.org/en/
+Usage:
 ```
-Usage: node src/index.js
+node src/index.js
 ```
 
 ### Front end
